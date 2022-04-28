@@ -1,0 +1,16 @@
+# DataSource Config
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/vueblog?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=Asia/Shanghai&&allowPublicKeyRetrieval=true
+    username: root
+    password: 123456zfl...
+#  redis:
+#    host: 127.0.0.1
+#    port: 6379
+#    password: 123
+shiro-redis:
+  enabled: true
+#  password: 123
+  redis-manager:
+    host: 127.0.0.1:6379
